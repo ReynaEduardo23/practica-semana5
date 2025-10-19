@@ -20,7 +20,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Compilar el proyecto
-      run: javac src/Calculadora.java test/CalculadoraTest.java
+      run: javac src/Calculadora/Calculadora.java Calculadora/test/CalculadoraTest.java
 
     - name: Ejecutar pruebas
       run: java -cp .:src:test CalculadoraTest
