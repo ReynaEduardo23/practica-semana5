@@ -1,6 +1,6 @@
-package Calculadora.test;
+package test;
 
-import Calculadora.Calculadora;
+import Calculadora;
 
 public class CalculadoraTest {
     public static void main(String[] args) {
