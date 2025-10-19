@@ -1,7 +1,3 @@
-package test;
-
-import Calculadora;
-
 public class CalculadoraTest {
     public static void main(String[] args) {
         assert Calculadora.sumar(2, 3) == 5 : "Error en suma";
